@@ -1,0 +1,34 @@
+/* Reset all margins and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the default font family */
+  body {
+    font-family: sans-serif;
+  }
+  
+  /* Normalize the display of headings */
+  h1, h2, h3, h4, h5, h6 {
+    display: block;
+    margin: 0;
+  }
+  
+  /* Normalize the display of lists */
+  ul, ol {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Normalize the display of images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Normalize the display of links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
