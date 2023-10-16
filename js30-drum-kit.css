@@ -1,34 +1,71 @@
 /* Reset all margins and padding */
-html, body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Set the default font family */
-  body {
-    font-family: sans-serif;
-  }
-  
-  /* Normalize the display of headings */
-  h1, h2, h3, h4, h5, h6 {
-    display: block;
-    margin: 0;
-  }
-  
-  /* Normalize the display of lists */
-  ul, ol {
-    list-style: none;
-    padding: 0;
-  }
-  
-  /* Normalize the display of images */
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* Normalize the display of links */
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/Background.jpg);
+  background-size: cover;
+}
+
+/* Set the default font family */
+body {
+  font-family: sans-serif;
+}
+
+/* Normalize the display of headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: block;
+  margin: 0;
+}
+
+/* Normalize the display of lists */
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+/* Normalize the display of images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Normalize the display of links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  width: 70vw;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 50%;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border: 4px solid gold;
+  background: linear-gradient(45deg, #b3a6ad 50%, #636363 100%);
+}
+.key {
+  font-size: 3rem;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+.key-text {
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
